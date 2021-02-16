@@ -12,10 +12,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - dashboard.example.com
+    - 192.168.50.10
     secretName: kubernetes-dashboard-tls
   rules:
-  - host: dashboard.example.com
+  - host: 192.168.50.10
     http:
       paths:
       - path: /
