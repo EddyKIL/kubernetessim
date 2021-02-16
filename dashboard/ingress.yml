@@ -12,10 +12,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - sim.cluster.exa
+    - master
     secretName: kubernetes-dashboard-tls
   rules:
-  - host: sim.cluster.exa
+  - host: master
     http:
       paths:
       - path: /
